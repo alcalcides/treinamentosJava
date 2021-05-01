@@ -1,0 +1,59 @@
+HELP.md
+target/
+bin/
+.mvn/
+
+log/fieldsRead/*
+!log/fieldsRead/.gitkeep
+log/*.log
+log/cityNotFound.log
+
+input/dicionario/*
+!input/dicionario/dicionarioModelo.txt
+
+
+input/source/*
+!input/source/.gitkeep
+
+
+output/*
+!output/.gitkeep
+
+mvnw*
+
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
